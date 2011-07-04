@@ -1,0 +1,2 @@
+module AdyenCallbackHelper
+end

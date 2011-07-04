@@ -1,0 +1,6 @@
+<p>
+A través de la pasarela de pago de Adyen podrás realizar de manera cómoda y segura tu pago.
+</p>
+<p>
+<%= link_to "Pagar Con Adyen", BillingIntegration::AdyenIntegration.current.generate_url(@order) %>
+</p>
